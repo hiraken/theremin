@@ -21,6 +21,8 @@
 		0D5C7EE717F5EFD10084E2E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D5C7EC917F5EFD10084E2E5 /* UIKit.framework */; };
 		0D5C7EEF17F5EFD10084E2E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D5C7EED17F5EFD10084E2E5 /* InfoPlist.strings */; };
 		0D5C7EF117F5EFD10084E2E5 /* thereminTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5C7EF017F5EFD10084E2E5 /* thereminTests.m */; };
+		0D5C7EFC17F5F0DB0084E2E5 /* RemoteOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5C7EFB17F5F0DB0084E2E5 /* RemoteOutput.m */; };
+		0D5C7EFE17F5F1360084E2E5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D5C7EFD17F5F1360084E2E5 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		0D5C7EEC17F5EFD10084E2E5 /* thereminTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "thereminTests-Info.plist"; sourceTree = "<group>"; };
 		0D5C7EEE17F5EFD10084E2E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0D5C7EF017F5EFD10084E2E5 /* thereminTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = thereminTests.m; sourceTree = "<group>"; };
+		0D5C7EFA17F5F0DB0084E2E5 /* RemoteOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteOutput.h; sourceTree = "<group>"; };
+		0D5C7EFB17F5F0DB0084E2E5 /* RemoteOutput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteOutput.m; sourceTree = "<group>"; };
+		0D5C7EFD17F5F1360084E2E5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D5C7EFE17F5F1360084E2E5 /* AudioToolbox.framework in Frameworks */,
 				0D5C7EC817F5EFD10084E2E5 /* CoreGraphics.framework in Frameworks */,
 				0D5C7ECA17F5EFD10084E2E5 /* UIKit.framework in Frameworks */,
 				0D5C7EC617F5EFD10084E2E5 /* Foundation.framework in Frameworks */,
@@ -82,6 +88,8 @@
 		0D5C7EB917F5EFD00084E2E5 = {
 			isa = PBXGroup;
 			children = (
+				0D5C7EFA17F5F0DB0084E2E5 /* RemoteOutput.h */,
+				0D5C7EFB17F5F0DB0084E2E5 /* RemoteOutput.m */,
 				0D5C7ECB17F5EFD10084E2E5 /* theremin */,
 				0D5C7EEA17F5EFD10084E2E5 /* thereminTests */,
 				0D5C7EC417F5EFD00084E2E5 /* Frameworks */,
@@ -101,6 +109,7 @@
 		0D5C7EC417F5EFD00084E2E5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0D5C7EFD17F5F1360084E2E5 /* AudioToolbox.framework */,
 				0D5C7EC517F5EFD10084E2E5 /* Foundation.framework */,
 				0D5C7EC717F5EFD10084E2E5 /* CoreGraphics.framework */,
 				0D5C7EC917F5EFD10084E2E5 /* UIKit.framework */,
@@ -251,6 +260,7 @@
 			files = (
 				0D5C7EDC17F5EFD10084E2E5 /* ViewController.m in Sources */,
 				0D5C7ED617F5EFD10084E2E5 /* AppDelegate.m in Sources */,
+				0D5C7EFC17F5F0DB0084E2E5 /* RemoteOutput.m in Sources */,
 				0D5C7ED217F5EFD10084E2E5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
